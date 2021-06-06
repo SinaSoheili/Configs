@@ -1,21 +1,21 @@
-theme = "solarized-dark"
-icons = "awesome5"
+theme = "nord-dark"
+icons = "awesome"
 
 
 [[block]]
 block = "disk_space"
-alias = "HOME"
+alias = " HOME"
 format = "{icon}{alias} {used}/{available}"
 path = "/home"
-unit = "GiB"
+unit = "GB"
 
 
 [[block]]
 block = "disk_space"
-alias = "ROOT"
+alias = " ROOT"
 format = "{icon}{alias} {used}/{available}"
 path = "/"
-unit = "GiB"
+unit = "GB"
 
 
 [[block]]
@@ -23,8 +23,6 @@ block = "net"
 device = "wlo1"
 format = "{ssid} {ip} {speed_down} {speed_up}"
 interval = 5
-use_bits = false
-speed_min_unit = "M"
 
 
 [[block]]
@@ -35,7 +33,7 @@ interval = 1
 
 [[block]]
 block = "sound"
-format = "{volume}%"
+format = "{volume}"
 max_vol = 100
 show_volume_when_muted = true
 
@@ -45,7 +43,7 @@ block = "battery"
 interval = 10
 device = "/sys/class/power_supply/BAT1"
 driver = "sysfs"
-format = "{percentage}%"
+format = "{percentage}"
 warning = 15
 
 

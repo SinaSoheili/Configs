@@ -180,7 +180,7 @@ bar {
 #	position top
 #       status_command i3status -c /home/sina/.config/i3/i3status.conf
 
-	font pango:DejaVu Sans Mono, FontAwesome 12
+	font pango:DejaVu Sans Mono, FontAwesome 11
 	position top
 	status_command /home/sina/.cargo/bin/i3status-rs /home/sina/.config/i3/config.toml
 	colors {
@@ -196,7 +196,7 @@ bar {
 }
 
 #set background 
-exec --no-startup-id feh --bg-scale ~/Pictures/background/macbook1.jpg
+exec --no-startup-id feh --bg-scale ~/Pictures/background/4.jpg
 
 #auto run xpad 
 exec --no-startup-id xpad
