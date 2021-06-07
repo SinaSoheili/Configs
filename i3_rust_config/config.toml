@@ -5,7 +5,7 @@ icons = "awesome"
 [[block]]
 block = "disk_space"
 alias = " HOME"
-format = "{icon}{alias} {used}/{available}"
+format = "{icon}{alias} {used}/{total}"
 path = "/home"
 unit = "GB"
 
@@ -13,7 +13,7 @@ unit = "GB"
 [[block]]
 block = "disk_space"
 alias = " ROOT"
-format = "{icon}{alias} {used}/{available}"
+format = "{icon}{alias} {used}/{total}"
 path = "/"
 unit = "GB"
 
