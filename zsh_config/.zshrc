@@ -105,9 +105,3 @@ source $ZSH/oh-my-zsh.sh
 
 # add user bin to path
 export PATH="$HOME/bin:$PATH"
-
-# add create CATALINA_HOME
-export CATALINA_HOME="$HOME/Programming/Avan/Project/build/appserver/tomcat"
-
-# add JAVA_HOME
-export JAVA_HOME="/usr/lib/jvm/java-8-openjdk-amd64"
